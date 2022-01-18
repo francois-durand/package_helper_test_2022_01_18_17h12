@@ -118,6 +118,8 @@ class MyClass1:
             >>> my_object = MyClass1(a=5, b=3)
             >>> my_object.addition()
             8
+            >>> MyClass1(a=40, b=2)
+            MyClass1(a=40, b=2)
         """
         return MyClass2(self.a, self.b).addition()
 
