@@ -120,6 +120,8 @@ class MyClass1:
             8
             >>> MyClass1(a=40, b=2)
             MyClass1(a=40, b=2)
+            >>> MyClass1(a=50, b=1)
+            MyClass1(a=50, b=1)
         """
         return MyClass2(self.a, self.b).addition()
 
